@@ -1,0 +1,251 @@
+body, html{
+	height: 100%;
+	width:100%;
+}
+body{
+	font-size: 1rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+h6{
+	position: relative;
+	text-transform: uppercase;
+}
+.top-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    height: 80px;
+    transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+.top-nav .navbar-nav li .nav-link {
+    color: #fff;
+    font-size: 14px;
+    padding:29px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+.top-nav li a.nav-link:hover, .top-nav .nav-item.active a.nav-link{
+    border-bottom: 3px solid #35cbdf;
+    color: #35cbdf;
+    transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+.top-nav .navbar-brand{
+	font-size: 28px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+.top-nav.light-header{
+	height: 60px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.23);
+	transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+.top-nav.light-header .navbar-brand{
+	color: #212121;
+}
+.top-nav.light-header .navbar-nav li .nav-link {
+    color: #212121;
+    padding: 19px 15px;
+    transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+
+.top-nav.light-header li a.nav-link:hover, .top-nav.light-header .nav-item.active a.nav-link{
+	border-bottom: 3px solid #35cbdf;
+    color: #35cbdf;
+    transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+#demo .carousel-item::before{
+	content:"";
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	width:100%;
+	height: 100vh;
+}
+#demo   .carousel-caption{
+	top:25%;
+}
+.carousel-item img{
+    width: 90%;
+}
+.team-section{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 1;
+	background-color:#fff;
+}
+.team-footer{
+	float: left;
+	width:100%;
+	padding: 15px;
+}
+.team-footer h3{
+	font-size: 1.5rem;
+	text-transform: capitalize;
+}
+.member-box{
+  width:100%
+  float:left;
+  position:relative;
+  overflow:hidden
+}
+.member-box:hover> img{
+transform: scale(1.05);
+transition:1s ease-in;  
+}
+.member-box img{
+  transition:0.3s ease-in;  
+}
+.member-box.t-bottom .overlay-content{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+}
+.member-box.t-center .overlay-content{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+.member-box i.box-circle-solid{
+	padding: 0;
+	width:40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+/* style 1 */
+.member-box.anim-lf .overlay-content{
+  position:absolute;
+  background-color:rgba(0,0,0,0.6);
+  left:-100%;
+  bottom:0;
+  width: 100%;
+  height:100%;
+  transition:0.4s ease-in;
+}
+.member-box.anim-lf:hover>.overlay-content{
+  left:0;
+  transition:0.4s ease-in;
+}
+/* style 1 */
+.member-box.anim-bt .overlay-content{
+  position:absolute;
+  background-color:rgba(0,0,0,0.6);
+  bottom:-100%;
+  width: 100%;
+  height:100%;
+  transition:0.6s ease-in;
+}
+
+.member-box.anim-bt:hover>.overlay-content{
+  bottom:0;
+  transition:0.4s ease-in;
+}
+
+/* ========== Testimonial Section ========== */
+.testimonial-section{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 1;
+}
+.testimonial-section .block-style-03 img{
+	width:100px;
+}
+
+/* ========== Footer Section ========== */
+.footer-section{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 1;
+}
+.footer-section .list-box img {
+    width: 70px;
+}
+.footer-section .list-box a.title{
+	font-size: 14px;
+	line-height: 0;
+}
+.footer-section .copy-text{
+	font-size: 12px;
+	border-top: 1px solid #555;
+}
+.social-box a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-box a.fa-box:hover {
+	background-color:#3B5998;
+}
+.social-box a.tw-box:hover {
+	background-color:#33ccff;
+}
+.social-box a.go-box:hover {
+	background-color:#BD3518;
+}
+.social-box a.ld-box:hover {
+	background-color:#007bb7;
+}
+ul.social-box {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-box li {
+	display: inline;
+	margin: 0 5px;
+}
+.social-box li a {
+    background: #414344;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 30px;
+}
+
+.social-box li i {
+	margin:0;
+	line-height:30px;
+	text-align: center;
+}
+
+.social-box li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-box i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
