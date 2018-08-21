@@ -10,3 +10,6 @@ $(window).scroll(function() {
 function myInfo(){
     document.getElementById("text").innerHTML ="By Business Analyst!";
 }
+function myMotto(){
+    document.getElementById("motto").innerHTML ="With IT, We Rule";
+}

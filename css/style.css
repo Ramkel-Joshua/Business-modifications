@@ -249,3 +249,11 @@ ul.social-box li {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+.motto{
+    text-align: center;
+    color: black;
+}
+button{
+    background: white;
+    color: deeppink;
+}
